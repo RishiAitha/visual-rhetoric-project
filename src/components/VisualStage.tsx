@@ -97,7 +97,7 @@ export default function VisualStage() {
   const clipTransition = 'clip-path 0.5s ease'
 
   return (
-    <div style={{ position: 'relative', minHeight: '100vh' }}>
+    <div style={{ position: 'relative', minHeight: '500vh' }}>
       {/* Poor icons — absolute, full width, clipped to LEFT of dividing line */}
       <div
         style={{
@@ -136,12 +136,12 @@ export default function VisualStage() {
         <div ref={richRef} className="icon-inner" />
       </div>
 
-      {/* Dashed dividing line — starts below header */}
+      {/* Dashed dividing line — absolute, starts below header, extends through full scroll space */}
       <div
         style={{
-          position: 'fixed',
-          top: headerH,
-          bottom: 0,
+          position: 'absolute',
+          top: 0,
+          height: '500vh',
           left: ldPct,
           transform: 'translateX(-50%)',
           width: 4,

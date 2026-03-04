@@ -97,7 +97,7 @@ export default function VisualStage() {
   const clipTransition = 'clip-path 0.5s ease'
 
   return (
-    <div style={{ position: 'relative', minHeight: '500vh' }}>
+    <div style={{ position: 'relative' }}>
       {/* Poor icons — absolute, full width, clipped to LEFT of dividing line */}
       <div
         style={{
@@ -105,7 +105,7 @@ export default function VisualStage() {
           top: 0,
           left: 0,
           width: '100%',
-          height: '500vh',
+          height: '100%',
           overflow: 'hidden',
           opacity: 0.15,
           zIndex: 0,
@@ -124,7 +124,7 @@ export default function VisualStage() {
           top: 0,
           left: 0,
           width: '100%',
-          height: '500vh',
+          height: '100%',
           overflow: 'hidden',
           opacity: 0.15,
           zIndex: 0,
@@ -141,7 +141,7 @@ export default function VisualStage() {
         style={{
           position: 'absolute',
           top: 0,
-          height: '500vh',
+          height: '100%',
           left: ldPct,
           transform: 'translateX(-50%)',
           width: 4,
@@ -194,61 +194,61 @@ export default function VisualStage() {
 
                   <div className="image-section">
                     <div className="text-blocks left-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>This poster is the first example of class divisions being emphasized in Parasite.</p>
+                      <p>The poor Kim family walks on the bottom, seemingly &ldquo;underground&rdquo;, surrounded by plumbing and darkness. Their lower class identity makes the Kims feel inferior, weak, and hopeless, wallowing in their own struggle.</p>
                     </div>
                     <img src="/Poster Line.png" alt="Poster Line" />
                     <div className="text-blocks right-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                      <p>The wealthy Park family walks above the others, in their luxury staircase lined with artwork.</p>
+                      <p>The strong contrast immediately implies that the two groups live vastly different experiences. Their consistent placement as &ldquo;above&rdquo; the Kim family emphasizes how their higher class identity is one focused on materialistic desire.</p>
                     </div>
                   </div>
 
                   <div className="image-section">
                     <div className="text-blocks left-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>The corner of the window acts as a distinct separation between the poor maid and her employer. It establishes the motif of &ldquo;crossing the line&rdquo;, establishing that the Kim family is entering territory they don&rsquo;t belong in.</p>
+                      <p>The hope of escaping poverty and thus their lower class identity is so enticing that they are willing to take risks and cross lines most people wouldn&rsquo;t consider.</p>
                     </div>
                     <img src="/Window Line.png" alt="Window Line" />
                     <div className="text-blocks right-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                      <p>When the maid claps to wake up Park Yeon-kyo (the Park family mother), she takes a risk in potentially disrespecting her employer. Even though she has worked there a long time, the Park family see her as nothing more than a servant.</p>
+                      <p>Any mistakes made by subordinates are taken extremely seriously by the Parks, as they struggle to empathize with those poorer than them.</p>
                     </div>
                   </div>
 
                   <div className="image-section">
                     <div className="text-blocks left-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>This pillar divides Kim Ki-woo (the Kim family son), and Park Yeon-kyo and frames him as behind and below her. Though he is scheming and taking advantage of her, Ki-woo is still in the position of servitude and feels inferior.</p>
+                      <p>He has to hold onto his lower class identity and follow along with the norms of his &ldquo;discourse community&rdquo; to earn the respect of the Parks.</p>
                     </div>
                     <img src="/Pillar Line.png" alt="Pillar Line" />
                     <div className="text-blocks right-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                      <p>The Park family members are often held in elevated positions, and they support this further with their attitude towards those that they employ.</p>
+                      <p>They sometimes seem to consider the less fortunate as subhuman, and Ki-woo and the others in his family certainly experience this with comments often made about their &ldquo;smell&rdquo;.</p>
                     </div>
                   </div>
 
                   <div className="image-section">
                     <div className="text-blocks left-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>In this shot, Bong Joon-ho breaks cinematography conventions to once again emphasize that the Kim family is crossing the line, as their con continues to force them out of their existing social roles.</p>
+                      <p>Kim Ki-jung takes a massive risk when deceiving the wealthy Park family, and has to carefully perform a different identity to seem more upper-class.</p>
                     </div>
                     <img src="/Breaking 180 Scene.gif" alt="Breaking 180 Scene" />
                     <div className="text-blocks right-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                      <p>Ki-jung deceives Yeon-gyo by convincing her that her son&rsquo;s scribbles are masterful artwork, demonstrating how the Parks act arrogant and hold themselves on an unrealistic pedestal due to their wealth and influence.</p>
+                      <p>She is easily convinced by Ki-jung&rsquo;s professional attitude as she believes that lower class, uneducated individuals would not have such confident identities.</p>
                     </div>
                   </div>
 
                   <div className="image-section">
                     <div className="text-blocks left-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <p>This stairwell is one of many the Kim family have to traverse on their way back from the Park family home. They practically live underground, a fact that constantly makes them feel that their lower social class defines their existence.</p>
+                      <p>They always feel stuck and desperate, as their lower social class makes them feel the need to perform as more wealthy and educated to deceive others.</p>
                     </div>
                     <img src="/Staircase.png" alt="Staircase" />
                     <div className="text-blocks right-text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+                      <p>Meanwhile, the Park family lives on the top of a hill in a massive mansion designed just for the movie. Their lavish lifestyle makes them feel endless confidence and superiority, compared to the Kims who feel hopeless every time they make the long walk down home.</p>
+                      <p>They exist completely out-of-touch with reality, never having to struggle with the long uphill climbs on the way to their home.</p>
                     </div>
                   </div>
 
